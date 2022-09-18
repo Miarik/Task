@@ -11,7 +11,7 @@
         for (int i = 0; i < arr.Length; i++)
         {
             char temp = arr[arr.Length-1];
-            arr[i] = arr[i+1];
+            arr[i+1] = arr[i];
             arr[0] = temp;
             return arr;
         }
