@@ -1,0 +1,5 @@
+/Users/Monkey/Desktop/tasks/16.09/7/obj/Debug/net6.0/7.csproj.AssemblyReference.cache
+/Users/Monkey/Desktop/tasks/16.09/7/obj/Debug/net6.0/7.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Monkey/Desktop/tasks/16.09/7/obj/Debug/net6.0/7.AssemblyInfoInputs.cache
+/Users/Monkey/Desktop/tasks/16.09/7/obj/Debug/net6.0/7.AssemblyInfo.cs
+/Users/Monkey/Desktop/tasks/16.09/7/obj/Debug/net6.0/7.csproj.CoreCompileInputs.cache

@@ -8,22 +8,23 @@
         // arr[arr.Length-2] = arr[0];
         // arr[0] = temp;
         // return arr;
-        for (int i = 0; i < arr.Length; i++)
+        char temp = arr[arr.Length-1];
+        arr[0] = temp;
+        for (int i = 0; i < arr.Length-1; i++)
         {
-            char temp = arr[arr.Length-1];
-            arr[i+1] = arr[i];
-            arr[0] = temp;
-            return arr;
+            arr[arr.Length - 1 - i] = arr[arr.Length - 2 - i];
         }
+        return arr;
     }
 
-    static void PrintArray(char[] arr)
+    static void PrintArray (char[] arr) 
+{
+    for (int i = 0; i < arr.Length; i++)
     {
-        for (int i = 0; i < arr.Length; i++)
-        {
-            Console.Write($"{arr[i] }");
-        }
+        Console.Write($"{arr[i]} ");
     }
+}
+        
         
 
     static void Main()
